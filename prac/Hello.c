@@ -5,4 +5,7 @@
 void main()
 {
     printf("Hello Mcmaster\n");
+    int value; // Decleration of type
+    value = 5; // giving the variable a associated value
+    printf("Value equal to: %d\n", value);
 }
