@@ -8,4 +8,5 @@ void main()
     int value; // Decleration of type
     value = 5; // giving the variable a associated value
     printf("Value equal to: %d\n", value);
+    printf("testing feature 1/n");
 }
