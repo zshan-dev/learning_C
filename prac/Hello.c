@@ -9,4 +9,6 @@ void main()
     value = 5; // giving the variable a associated value
     printf("Value equal to: %d\n", value);
     printf("testing feature 1/n");
+    printf("testing commit 1/n");
+
 }
