@@ -8,9 +8,10 @@ int main()
     char s3[20];
     char s[] = "Pedram";
     char s2[] = "Passendi";
-
-    strcpy(s3, s);
+    printf("second string: %c\n", s[3]);
+    // strcpy(s3, s);
     strcat(s3, s2);
+
     printf("%s\n", s3);
 
     float result = 10 / 2.0;
@@ -31,4 +32,9 @@ int main()
     printf(" Float : %.20f\n", F);
     printf(" Double : %.20lf\n", D);
     printf(" Long Double : %.20Lf\n", L);
+
+    const unsigned int goals = 3000;
+    unsigned int games = 3000;
+
+    float avg_goal = printf("The aeverage goals per game was: %.2f\n", (float)goals / games);
 }
