@@ -2,8 +2,7 @@
 #include <string.h>
 #include <float.h>
 
-int main()
-{
+int main(){
     const double Ped = 1.23456789;
     char s3[20];
     char s[] = "Pedram";
