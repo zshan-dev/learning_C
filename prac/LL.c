@@ -1,5 +1,6 @@
-//valgrind -- leak - check = full ./example
+//valgrind --leak-check=full ./example
 // leak --atExit -- ./example
+// Linked list but with hard coded nodes
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -29,10 +30,10 @@ int main(){
     node3.value = 6;
 
     // link them up 
-    head = &node1; // address of node 1
-    node1.next =&node2;
-    node2.next = &node3;
-    node3.next = NULL;
+    head = &node3; // address of node 1
+    node3.next =&node1;
+    node1.next = &node2;
+    node2.next = NULL;
 
     printlist(head);
 
